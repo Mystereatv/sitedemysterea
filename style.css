@@ -1,0 +1,174 @@
+body{
+	font-family: "Century Gothic", Verdana, sans-serif;		/* type de police (chercher "google fonts" pour des polices moins spécifiques), dans le site trouver et copier coller les liens et pages donné */
+	background-image:url(nItQK.png);
+	margin:0;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p2 {
+	font-size: 30px;
+	text-align: center;
+	margin: 30%
+}
+
+
+list {
+	background-color: #A13AF2;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+	display:inline-block;
+	width: 95%;
+	border-style: solid;
+	border-radius: 40px;
+	border-color: #F580FF;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+liste {
+	position: absolute;
+	margin: 14px 36%;
+	display: none;
+}
+
+liste af:hover {
+	background: #BBB;
+}
+
+af {
+	background-color: #A13AF2;
+	width: 200px
+}
+/*partie liste réseaux sociaux*/
+
+RS:hover {
+	background: #BBB;
+}
+RS:hover liste {
+	display: block;
+}
+
+
+
+RS {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 14px 0px;
+}
+/*partie liste Présentation*/
+
+PREZ{
+	display: inline;
+	margin-left: 30px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 14px 0px;
+}
+
+PREZ:hover {
+	background: #BBB;
+}
+PREZ:hover liste {
+	display: block;
+}
+
+PREZ liste af {
+	margin: 0px 245px;
+}
+
+af {
+	display: inline-block;
+}
+
+/*parties personnages*/
+
+Personages {
+	margin-left: 100px;
+}
+
+
+zoe {
+	margin-left: 100px;
+}
+
+zoetext{
+	display: none;
+	position: absolute;
+	text-align:center;
+	width: 100%;
+}
+
+zoe:hover zoetext{
+	display: block;
+}
+
+
+
+presea {
+	margin-left: 100px;
+}
+
+preseatext{
+	display: none;
+	position: absolute;
+	text-align:center;
+	width: 100%;
+}
+
+presea:hover preseatext{
+	display: block;
+}
+
+seraphine {
+	margin-left: 100px;
+}
+
+seraphinetext{
+	display: none;
+	position: absolute;
+	text-align:center;
+	width: 100%;
+}
+
+seraphine:hover seraphinetext{
+	display: block;
+}
+
+gwen {
+	margin-left: 100px;
+}
+
+gwentext{
+	display: none;
+	position: absolute;
+	text-align:center;
+	width: 100%;
+}
+
+gwen:hover gwentext{
+	display: block;
+}
+
+laby {
+	margin-left: 100px;
+}
+
+labytext{
+	display: none;
+	position: absolute;
+	text-align:center;
+	width: 100%;
+}
+
+laby:hover labytext{
+	display: block;
+}
+
+
